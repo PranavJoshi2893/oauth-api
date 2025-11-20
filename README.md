@@ -4,6 +4,15 @@ Follow these steps to set up and run the application.
 
 ---
 
+## **Make Scripts Executable**
+
+Before running any scripts, ensure they have execution permissions:
+
+```bash
+chmod +x ./start_db.sh
+chmod +x ./start_server.sh
+```
+
 ## **Update the `.env` File**
 
 Create a `.env` file in the project root (or copy it from `.env.example`) and fill in the required values:
